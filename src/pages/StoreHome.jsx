@@ -260,12 +260,13 @@ const StoreHome = () => {
         <div>
           <PageTitle>{t("StoreCustomizationPageTitle")}</PageTitle>
         </div>
-        <div className="pb-4">
+        {/* Selecionar idioma */}
+        {/* <div className="pb-4">
           <SelectLanguageTwo
             register={register}
             handleSelectLanguage={handleSelectLanguage}
           />
-        </div>
+        </div> */}
       </div>
 
       <>
@@ -290,7 +291,8 @@ const StoreHome = () => {
             </Link>
           </li>
 
-          <li>
+          {/* Configuração */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=single-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -306,9 +308,9 @@ const StoreHome = () => {
                 {"Setting"}
               </span>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=about-us-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -324,9 +326,10 @@ const StoreHome = () => {
                 {"About"}
               </span>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
+          {/* Política de Privacidade */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=privacy-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -342,9 +345,10 @@ const StoreHome = () => {
                 {"Privacy"}
               </span>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
+            {/* Perguntas Frequentes */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=FAQ-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -360,9 +364,10 @@ const StoreHome = () => {
                 {t("FAQSetting")}
               </span>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
+          {/* Ofertas */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=offers-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -378,9 +383,10 @@ const StoreHome = () => {
                 {t("OffersStting")}
               </span>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
+            {/* Contato */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=contact-us-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -396,8 +402,10 @@ const StoreHome = () => {
                 Contact
               </span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+
+            {/* Checkout */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=checkout-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -413,8 +421,10 @@ const StoreHome = () => {
                 {t("Checkout")}
               </span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+
+            {/* Dashboard */}
+          {/* <li>
             <Link
               to={"/store/customization?storeTab=dashboard-setting"}
               className={`inline-block w-full py-3 px-4 shadow-md ${
@@ -430,7 +440,9 @@ const StoreHome = () => {
                 {t("Dashboard")}
               </span>
             </Link>
-          </li>
+          </li> */}
+
+          {/*  SEO */}
           <li>
             <Link
               to={"/store/customization?storeTab=seo-settings"}
