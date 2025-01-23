@@ -79,7 +79,7 @@ const sidebar = [
   //   routes: [
   //     {
   //       name: "ViewStore",
-  //       path: "http://localhost:3000",
+  //       path: "https://frontendloja.vercel.app/",
   //       outside: "store",
   //     },
 
