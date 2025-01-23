@@ -83,16 +83,16 @@ const sidebar = [
   //       outside: "store",
   //     },
 
-      {
-        path: "/store/customization",
-        name: "StoreCustomization",
-      },
-      // {
-      //   path: "/store/store-settings",
-      //   name: "StoreSettings",
-      // },
-    ],
-  },
+  //     {
+  //       path: "/store/customization",
+  //       name: "StoreCustomization",
+  //     },
+  //     // {
+  //     //   path: "/store/store-settings",
+  //     //   name: "StoreSettings",
+  //     // },
+  //   ],
+  // },
 
   // {
   //   icon: FiSlack,
