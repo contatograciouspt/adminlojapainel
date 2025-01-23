@@ -134,9 +134,10 @@ const HomePage = ({
         )}
       </div>
       <div className="grid grid-cols-12 font-sans pr-4">
-        {/*  ====================================================== Header ====================================================== */}
+        {/*  ====================================================== Cabeçalho ====================================================== */}
         <div className="col-span-12 md:col-span-12 lg:col-span-12">
-          <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
+          {/* Editar Cabeçalho */}
+          {/* <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
             <FiSettings className="mt-1 mr-2" />
             {t("Header")}
           </div>
@@ -188,10 +189,12 @@ const HomePage = ({
                 <Uploader imageUrl={headerLogo} setImageUrl={setHeaderLogo} />
               </div>
             </div>
-          </div>
+          </div> */}
+
+          {/* Editar Menu */}
 
           {/*  ================= Menu Editor ======================== */}
-          <div className="grid md:grid-cols-5 sm:grid-cols-6 scrollbar-hide w-full max-h-full pb-0">
+          {/* <div className="grid md:grid-cols-5 sm:grid-cols-6 scrollbar-hide w-full max-h-full pb-0">
             <div className="md:col-span-1 sm:col-span-2"></div>
             <div className="sm:col-span-4 md:pl-3 sm:pl-2">
               <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative">
@@ -439,7 +442,7 @@ const HomePage = ({
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/*  ================== Menu Editor ======================== */}
         </div>
@@ -447,7 +450,7 @@ const HomePage = ({
         {/*  ====================================================== Main Slider ====================================================== */}
         <div className="col-span-12 md:col-span-12 lg:col-span-12 mt-5">
           <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
-            <FiSettings className="mt-1 mr-2" /> {t("MainSlider")}
+            <FiSettings className="mt-1 mr-2" /> {"Editor de Slides"}
           </div>
 
           <hr className="mb-3" />
@@ -459,8 +462,8 @@ const HomePage = ({
                   <Tab>{t("Slider")} 1</Tab>
                   <Tab>{t("Slider")} 2</Tab>
                   <Tab>{t("Slider")} 3</Tab>
-                  <Tab>{t("Slider")} 4</Tab>
-                  <Tab>{t("Slider")} 5</Tab>
+                  {/* <Tab>{t("Slider")} 4</Tab>
+                  <Tab>{t("Slider")} 5</Tab> */}
                   <Tab>{t("Options")}</Tab>
                 </TabList>
 
@@ -897,11 +900,12 @@ const HomePage = ({
           </div>
         </div>
 
-        {/*  ======================================================Discount Coupon Code Box ====================================================== */}
+        {/*  ====================================================== Editar cupom de desconto ====================================================== */}
         <div className="col-span-12 md:col-span-12 lg:col-span-12 mt-5">
           <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
             <FiSettings className="mt-1 mr-2" />
-            {t("DiscountCouponTitle1")}
+            {/* {t("DiscountCouponTitle1")} */}
+            {"Editar Cupom de Desconto"}
           </div>
 
           <hr className="md:mb-12 mb-3" />
@@ -1298,8 +1302,8 @@ const HomePage = ({
           </div>
         </div>
 
-        {/*  ====================================================== Quick Delivery Section ====================================================== */}
-        <div className="col-span-12 md:col-span-12 lg:col-span-12 mt-15">
+        {/*  ====================================================== Entrega Rápida ====================================================== */}
+        {/* <div className="col-span-12 md:col-span-12 lg:col-span-12 mt-15">
           <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
             <FiSettings className="mt-1 mr-2" />{" "}
             {t("QuickDeliverySectionTitle")}
@@ -1422,19 +1426,19 @@ const HomePage = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/*  ====================================================== Latest Discounted Products ====================================================== */}
-        <div className="col-span-12 md:col-span-12 lg:col-span-12 md:mt-0 mt-10">
-          <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
+        {/*  ====================================================== Últimos produtos com desconto ====================================================== */}
+        {/* <div className="col-span-12 md:col-span-12 lg:col-span-12 md:mt-0 mt-10"> */}
+          {/* <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
             <FiSettings className="mt-1 mr-2" />{" "}
             {t("LatestDiscountedProductsTitle")}
-          </div>
+          </div> */}
 
-          <hr className="md:mb-12 mb-3" />
+          {/* <hr className="md:mb-12 mb-3" />
 
-          <div className="xl:px-10 flex-grow scrollbar-hide w-full max-h-full pb-0">
-            <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3">
+          <div className="xl:px-10 flex-grow scrollbar-hide w-full max-h-full pb-0"> */}
+            {/* <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3">
               <label className="block md:text-sm md:col-span-1 sm:col-span-2 text-xs font-semibold text-gray-600 dark:text-gray-400 mb-1">
                 {t("EnableThisBlock")}
               </label>
@@ -1446,9 +1450,9 @@ const HomePage = ({
                   name={latestDiscounted}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div
+            {/* <div
               style={{
                 height: latestDiscounted ? "auto" : 0,
                 transition: "all 0.5s",
@@ -1502,18 +1506,18 @@ const HomePage = ({
                   <Error errorName={errors.latest_discount_product_limit} />
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="flex flex-row-reverse pb-6">
                   <Button type="submit" className="h-10 px-6">
                     Save
                   </Button>
                 </div> */}
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
 
-        {/*  ====================================================== Get Your Daily Needs Banner Section ====================================================== */}
-        <div
+        {/*  ====================================================== Obtenha suas necessidades diárias ====================================================== */}
+        {/* <div
           className={`col-span-12 md:col-span-12 lg:col-span-12 ${
             window.innerWidth < 400 ? "md:my-0 my-24" : "md:my-0 my-24"
           }`}
@@ -1660,10 +1664,10 @@ const HomePage = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/*  ====================================================== Feature Promo Section ====================================================== */}
-        <div
+        {/*  ====================================================== Seção de promoção de recursos ====================================================== */}
+        {/* <div
           className={`col-span-12 md:col-span-12 lg:col-span-12 ${
             window.innerWidth < 400 ? "md:mt-0 mt-40" : "md:mt-0 mt-10"
           }`}
@@ -1762,22 +1766,22 @@ const HomePage = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/*  ====================================================== Footer Section ====================================================== */}
+        {/*  ====================================================== Rodapé ====================================================== */}
         <div className="col-span-12 md:col-span-12 lg:col-span-12 md:mt-0 mt-10">
-          <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
+          {/* <div className="inline-flex md:text-lg text-base text-gray-800 font-semibold dark:text-gray-400 mb-3">
             <FiSettings className="mt-1 mr-2" /> {t("FooterTitle")}
-          </div>
+          </div> */}
 
           <hr className="md:mb-12 mb-3" />
 
           <div className="xl:px-10 flex-grow scrollbar-hide w-full max-h-full pb-0">
-            <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative">
+            {/* <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative">
               <strong>{t("Block")} 1</strong>
-            </div>
-            <hr className="md:mb-12 mb-3" />
-            <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3">
+            </div> */}
+            {/* <hr className="md:mb-12 mb-3" /> */}
+            {/* <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3">
               <label className="block md:text-sm md:col-span-1 sm:col-span-2 text-xs font-semibold text-gray-600 dark:text-gray-400 mb-1">
                 {t("EnableThisBlock")}
               </label>
@@ -1789,9 +1793,9 @@ const HomePage = ({
                   name={footerBlock1}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div
+            {/* <div
               style={{
                 height: footerBlock1 ? "auto" : 0,
                 transition: "all 0.5s",
@@ -2422,9 +2426,9 @@ const HomePage = ({
                   <Error errorName={errors.social_whatsapp} />
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative mt-24 md:mt-0">
+            {/* <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative mt-24 md:mt-0">
               <strong>{t("PaymentMethod")}</strong>
             </div>
             <hr className="md:mb-12 mb-3" />
@@ -2461,7 +2465,7 @@ const HomePage = ({
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="grid md:grid-cols-5 sm:grid-cols-6 gap-3 md:gap-5 xl:gap-6 lg:gap-6 md:mb-6 mb-3">
                   <label className="block md:text-sm md:col-span-1 sm:col-span-2 text-xs font-semibold text-gray-600 dark:text-gray-400 mb-1">
@@ -2476,7 +2480,7 @@ const HomePage = ({
                   </div>
                 </div> */}
 
-            <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative mt-16 md:mt-0">
+            {/* <div className="inline-flex md:text-base text-sm mb-3 text-gray-500 dark:text-gray-400 relative mt-16 md:mt-0">
               <strong>{t("FooterBottomContact")}</strong>
             </div>
 
@@ -2518,7 +2522,7 @@ const HomePage = ({
                 />
                 <Error errorName={errors.footer_Bottom_Contact} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
